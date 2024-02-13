@@ -41,28 +41,44 @@
 
 ![image](https://github.com/SSAFY11-SEOUL-15/Algorithm/assets/97653343/2dff99e7-6db1-4a14-a19b-17a2f55eb39d)
 
+* 만약 original 저장소(SSAFY Algorithm의 저장소)의 master 브랜치에 변경 사항이 있을 경우, 변경 사항이 개인 저장소에도 반영되어야 합니다.
+* Update Branch를 클릭해 변경 사항을 반영해주세요.
+
+![image](https://github.com/SSAFY11-SEOUL-15/Algorithm/assets/97653343/942ef8b9-9bf4-458b-a144-13e4487cd661)
+
+* 날짜를 기준으로 만들어진 폴더에서 새로운 파일을 만들어 주세요. (예시는 0213/N-Queen 폴더 에서 진행한 것입니다.)
+* `Add file` 버튼의 `Create new file` 옵션을 선택해 주세요. (이름 별로 디렉토리를 생성하기 위함입니다.)
+![image](https://github.com/SSAFY11-SEOUL-15/Algorithm/assets/97653343/f2e3cb5b-27b9-4da5-bdc6-3619e07a1194)
+
+* `$이름/Source파일`의 형태로 새로운 파일을 만들어주세요.
+* `Commit change` 버튼을 클릭해 새로운 파일을 저장소에 업로드 해주세요.
+
+![image](https://github.com/SSAFY11-SEOUL-15/Algorithm/assets/97653343/0e0f199e-6b55-4fc0-addf-e897c7cb3cf5)
+![image](https://github.com/SSAFY11-SEOUL-15/Algorithm/assets/97653343/24258720-b6d8-4fa6-89d2-d3b69225d698)
+
 ### 4. github 서비스에서 Pull Request 보내기
 
 > Pull Request는 github에서 제공하는 기능으로 코드리뷰 요청을 보낼 때 사용합니다.
 > Pull Request는 original 저장소(SSAFY Algorithm의 저장소)의 master 브랜치와 앞 단계에서 생성한 브랜치 이름을 기준으로 합니다.
 
 ```
-ex) 미션을 진행한 javajigi/java-baseball javajigi 브랜치 => woowacourse/java-baseball main
-브랜치로 Pull Request를 보낸다.
+ex) 파일을 추가한 JungHun98 브랜치 => SSAFY Algorithm의 master 브랜치로 Pull Request를 보낸다.
 ```
 
 * 브라우저에서 github 저장소에 접근
-* 브랜치를 작업 브랜치로 변경(앞 단계의 예에서는 javajigi)
-* 브랜치 오른쪽에 있는 **"New pull request"** 버튼 클릭
-
-![pull request 보내기](./images/etc/pull_request_1.png)
-
+* 브랜치를 작업 브랜치로 변경
+* 브랜치 오른쪽에 있는 Contribute의 **"Open a pull request"** 버튼 클릭
 * Pull Request 제목은 `[$날짜] $이름` 형식으로 작성해주세요. ex) [0213] 김정훈
 * 작업한 내용을 입력하고 **"Create pull request"** 버튼을 클릭해 Pull Request를 보내주세요.
+* base repository가 SSAFY의 Algorithm이고 base branch가 master인지 확인해주세요.
+* head repository가 개인 저장소이고 compare가 이전에 생성한 브랜치인지 확인해주세요.
 
-![pull request 브랜치 변경](./images/etc/pull_request_2.jpg)
+![image](https://github.com/SSAFY11-SEOUL-15/Algorithm/assets/97653343/89078d55-7140-4c41-ba8a-7a0a8ced5f16)
 
+
+* Create pull request를 클릭해 pull request를 생성합니다.
 * Pull Request를 보냈을 때의 상태는 아래와 같습니다.
 
-![pull request](./images/pull_request.jpg)
+![image](https://github.com/SSAFY11-SEOUL-15/Algorithm/assets/97653343/6c6bf4e3-f4c1-4564-8bf5-c0f290b4bf4f)
+
 
